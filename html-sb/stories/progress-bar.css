@@ -1,0 +1,29 @@
+
+.progress-bar {
+  background: #ccc;
+  border: 1px solid blue;
+  width: 400px;
+  height: 30px;
+  position: relative;
+}
+
+.progress-title {
+  display: inline-block;
+  float: right;
+  line-height: 30px;
+  color: white;
+  padding: 0 5px;
+}
+
+.progress-bar .line {
+  height: 100%;
+  background: green;
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.progress-bar .line-secondary {
+  background: blue;
+}
